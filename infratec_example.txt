@@ -1,0 +1,43 @@
+ Foss Tecator
+                 18-10-11     15:12        Instrument: 91822446
+                   OConstant:1678            PConstant:0.348
+
+                                   Operator:
+                            Ambient Temperature:23.0
+                              Analysis Counter:60
+                Model Checksum:1CE91408E6DFA6EB21E18A2D12EF47BE
+
+                  CO162311     Corn         NrOFSubSamples: 10
+
+              ~04180414~ ~043E043104400430043704460430~
+                                        COOI0011
+                                 OilDM    3.7
+                        Slope:     1       Intercept: 0
+                       Moisture:  0.0     Deviation: 0.2
+                     MinPred:   3.5     MaxPred:   4.0
+                                    SSR:
+                                  CnsCheck:
+                                        COPR0011
+                                ProtDM    7.3
+                        Slope:     1       Intercept: 0
+                       Moisture:  0.0     Deviation: 0.2
+                     MinPred:   7.1     MaxPred:   7.8
+                                    SSR:
+                                  CnsCheck:
+                                        COMO0023
+                              Moisture   20.0
+                      Slope:     1       Intercept: 0.6000
+                       Moisture:  0.0     Deviation: 0.4
+                     MinPred:   19.4    MaxPred:   20.5
+                                    SSR:
+                                  CnsCheck:
+                                        COST0006
+                              StarchDM   72.5
+                        Slope:     1       Intercept: 0
+                       Moisture:  0.0     Deviation: 0.3
+                     MinPred:   71.8    MaxPred:   72.9
+                                    SSR:
+                                  CnsCheck:
+     ###C:0:;UDF:6042:0:;UDF:6043:0:;UDF:6044:0:;UDF:6045:0:;UDF:6046:0:###
+                             This result belongs to
+              ~04180414~ ~043A043B04380435043D04420430~
