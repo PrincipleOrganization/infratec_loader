@@ -40,20 +40,18 @@ var qualities = [];
 
 for( var i = startQ; i <= arr_sdata.length-qLength; ){
     
-    
     var q = {
         id:arr_sdata[i],
-        value:arr_sdata[i+1].split(/^s[-0-9a-zA-Z.]/)[0],
-        minmax:arr_sdata[i+4].split(/^s[-0-9a-zA-Z.]/)[0]
+        value:arr_sdata[i+1].split(String.fromCharCode(20)),
+        minmax:arr_sdata[i+4].split(String.fromCharCode(20))
     }
-    
     qualities.push(q);   
     i = i+qLength;
-    // break;
+    
 }
 
 result.qualities = qualities;
-
+result.datahash  = Buffer.from(msg.payload).toString('base64');
 // msg.payload = arr_sdata;
 msg.payload = result;
 
